@@ -1,0 +1,36 @@
+/* Universal Styles */
+
+body{
+    font-family: cursive;
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+*{
+    background-color: lavenderblush;
+}
+
+th{
+    background-color:hotpink;
+    font-weight: bold;
+    color: black;
+}
+
+td{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.headings{
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px;
+}
+
+span {
+    font-family: monospace;
+    background-color: lightgreen;
+}

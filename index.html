@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<<!DOCTYPE html>
+
+    <html>
+
+    <head>
+        <title><span>&lt;input&gt;</span> Values Cheatsheet</title>
+        <link rel="stylesheet" href="./Resources/style.css">
+    </head>
+
+    <body>
+        <div class="headings">
+            <h1>The <span>&lt;input&gt;</span> element does not need a closing tag</h1>
+            <h2>The type=" " attribute can have the following values.</h2>
+            <h3>Note: "required" can be used as an attribute for any type value</h3>
+        </div>
+
+        <table id="table1">
+            <thead>
+                <tr>
+                    <th>Value</th>
+                    <th>Description</th>
+                    <th>Attributes Used With</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><span>checkbox</span></td>
+                    <td>Single checkbox item</td>
+                    <td>name=" " (use same name for group of checkboxes), value=" "</td>
+                </tr>
+                <tr>
+                    <td><span>number</span></td>
+                    <td>Creates input field for numbers</td>
+                    <td>name=" ", min, max</td>
+                </tr>
+                <tr>
+                    <td><span>password</span></td>
+                    <td>Creates single row input field with censored text</td>
+                    <td>name = " "</td>
+                </tr>
+                <tr>
+                    <td><span>radio</span></td>
+                    <td>Creates a single radio button</td>
+                    <td>name=" " (use same name for group of buttons), value=" "</td>
+                </tr>
+                <tr>
+                    <td><span>range</span></td>
+                    <td>Creates a slider between min and max value</td>
+                    <td>name=" ", min, max, step</td>
+                </tr>
+                <tr>
+                    <td><span>submit</span></td>
+                    <td>A submit button with text "Submit" will be rendered</td>
+                    <td>value=" " to change text</td>
+                </tr>
+                <tr>
+                    <td><span>text</span></td>
+                    <td>Creates single row input field for text</td>
+                    <td>name = " ", maxlength=" ", pattern=RegEx, minlength, maxlength</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <br>
+
+        <table id="table2">
+            <div class="headings">
+                <h2>Other Elements used on Forms</h2>
+                <h3>These Elements have closing tags</h3>
+            </div>
+            <br>
+            <thead>
+                <tr>
+                    <th><span>Element</span></th>
+                    <th>Description</th>
+                    <th>Attributes Used With</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span>&lt;datalist&gt;</span></td>
+                    <td>Basic search autocomplete function paired with &lt;input&gt; element</td>
+                    <td>&lt;input&gt "list" value must match datalist ID. Several &lt;option&gt;s populate datalist
+                    </td>
+                </tr>
+                <tr>
+                    <td><span>&lt;form&gt;</span></td>
+                    <td>Used to contain various input elements for submission</td>
+                    <td>method="post" action=" location to send data"</td>
+                </tr>
+                <tr>
+                    <td><span>&lt;label&gt;</span></td>
+                    <td>Creates a label for an &lt;input&gt; element</td>
+                    <td>for=" " must equal &lt;input&gt; element ID</td>
+                </tr>
+                <tr>
+                    <td><span>&lt;select&gt;</span></td>
+                    <td>Creates dropdown list</td>
+                    <td>name=" ", Choices in list from &lt;option&gt; elements</td>
+                </tr>
+                <tr>
+                    <td><span>&lt;textarea&gt;</span></td>
+                    <td>Creates multi-row input field for text</td>
+                    <td>name = " ", rows, cols (set initial size)</td>
+                </tr>
+
+            </tbody>
+
+    </body>
+
+    </html>
